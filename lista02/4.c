@@ -50,10 +50,7 @@ int main()
     int opc;
     float a,b;
 
-    scanf("%d",&opc);
-    scanf("%f",&a);
-    scanf("%f",&b);
-
+    scanf("%d %f %f",&opc,&a,&b);
 
     printf("%f\n",calculadora(opc,a,b));
 
