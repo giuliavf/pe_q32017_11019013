@@ -26,9 +26,7 @@ double salario(int sal,int faltas,int acresc){
 main(){
     int cargo,faltas,acresc,sal,nov_sal;
 
-    scanf("%d",&cargo);
-    scanf("%d",&faltas);
-    scanf("%d",&acresc);
+    scanf("%d %d %d",&cargo,&faltas,&acresc);
 
     switch(cargo){
         case 1: 
