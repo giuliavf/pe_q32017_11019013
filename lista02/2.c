@@ -7,9 +7,7 @@ float vol(float larg, float comp, float alt){
 
 main(){
     float l,c,h;
-    scanf("%f",&l);
-    scanf("%f",&c);
-    scanf("%f",&h);
+    scanf("%f %f %f",&l,&c,&h);
 
     float y = vol(l,c,h);
     printf("%0.2f\n",y);    
