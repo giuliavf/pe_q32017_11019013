@@ -23,9 +23,9 @@ int main (){
     pal = palindromo (inchar,0,tam);
 
     if (pal == 1){
-        printf("sim"); //
+        printf("sim\n"); //
     }else{
-        printf("nao");
+        printf("nao\n");
     }
     return 0;
 }
