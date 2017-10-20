@@ -8,8 +8,7 @@ int MDC (int m, int n){
 int main (){
     int n,m,mdc;
 
-    scanf("%d",&m); 
-    scanf("%d",&n);
+    scanf("%d %d",&m,&n); 
 
     mdc = MDC(m,n);
 
