@@ -9,8 +9,7 @@ int potencia (int x, int y){
 
 main(){
     int x,y,pot;
-    scanf("%d",&x);
-    scanf("%d",&y);
+    scanf("%d %d",&x,&y);
 
     pot = potencia (x,y);
     printf("%d\n",pot);
