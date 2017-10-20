@@ -143,10 +143,7 @@ int main ()
     int tipo, in, out;
     float valor;
 
-    scanf ("%d",&tipo);
-    scanf ("%d",&in);
-    scanf ("%d",&out);
-    scanf ("%f",&valor);
+    scanf ("%d "%d "%d "%f",&tipo,&in,&out,&valor);
 
     conversor (tipo,in,out,valor);
 
