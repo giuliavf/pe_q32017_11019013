@@ -19,8 +19,7 @@ int coefbin (int n, int k){
 main(){
     int n,k;
 
-    scanf("%d",&n);
-    scanf("%d",&k);
+    scanf("%d %d",&n,&k);
 
     int t = coefbin (n,k);
 
