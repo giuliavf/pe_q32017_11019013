@@ -13,8 +13,7 @@ int main()
 {
     int n,k;
 
-    scanf ("%d",&n);
-    scanf ("%d",&k);
+    scanf ("%d %d",&n,&k);
 
     int t = pascal (n,k);
 
