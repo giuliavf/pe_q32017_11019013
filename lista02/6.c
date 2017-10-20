@@ -37,15 +37,12 @@ int main()
 {
     double a,b,c,r1,r2;
 
-    scanf ("%lf",&a);
-    scanf ("%lf",&b);
-    scanf ("%lf",&c);
+    scanf ("%lf %lf %lf",&a,&b,&c);
 
     r1 = bask1 (a,b,c);
     r2 = bask2 (a,b,c);
 
-    printf ("%.3lf ",r1);       
-    printf ("%.3lf\n",r2);   
+    printf ("%.3lf %.3lf\n",r1,r2);       
 
     return 0;
 }
