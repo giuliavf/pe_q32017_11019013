@@ -14,8 +14,7 @@ int binToDec (int n){
 int main(){
     int n,op,resp=0;
 
-    scanf("%d", &n);
-    scanf("%d", &op);
+    scanf("%d %d",&n,&op);
 
     if(op==1){  
         resp = decToBin (n);     
