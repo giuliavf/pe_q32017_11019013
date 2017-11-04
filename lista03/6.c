@@ -14,18 +14,18 @@ int cmpfunc(const void * a, const void * b) {
     return ( *(int*)a - *(int*) b);
 }
 
-double mediana(int n, int * v)
+void mediana(int n, int * v)
 {
     qsort(v,n,sizeof(int),cmpfunc);
     
     int meio;
     if (n%2 != 0) {
         meio = n/2 + 1;
-        return v[meio-1];
+        printf("%.2lf\n",(double)v[meio-1]); 
     } else {
         meio = n/2;
         double k = v[meio-1] + v[meio];
-        return k/2;
+        printf("%.2lf\n",k/2);
     }    
 }
 
@@ -37,9 +37,7 @@ int main()
     int * v = malloc(n * sizeof(int));
     le(n,v);
     
-    double med = mediana(n,v);
-    
-    printf("%.2lf\n",med);
+    mediana(n,v);   
     
     free(v);
         
