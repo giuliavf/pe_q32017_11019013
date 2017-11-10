@@ -17,7 +17,8 @@ int coef_bin(int n, int k)
     return p1/(p2*p3);
 }
 
-int main(){
+int main()
+{
     int n,k;
 
     scanf("%d %d",&n,&k);
