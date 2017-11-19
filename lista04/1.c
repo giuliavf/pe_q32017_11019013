@@ -29,7 +29,3 @@ int main()
     return 0;
 }
 
-/*
-scanf("%f %f %f", &(p1.x), &(p1.y), &(p1.z));
-
-*/
